@@ -34,7 +34,7 @@ lines(times, generate_p_test_pos_ag(d_inf_Gamma, 0.80)(times), lwd=2, lty=3, col
 lines(times, generate_p_test_pos_ag(d_infectious_Goyal, 0.80)(times), lwd=2, lty=3, col='darkorange')
 lines(times, generate_p_test_pos_ag(d_infectious_Clifford, 0.80)(times), lwd=2, lty=3, col='blue')
 legend('topright', legend=c('RT-PCR', 'Ag 80% sens. - Gamma', 
-  'Ag 80% sens. - Goyal et al.', 'Ag 80% sen. - Clifford et al.'), 
+  'Ag 80% sens. - Goyal et al.', 'Ag 80% sens. - Clifford et al.'), 
   lty=c(1, 3, 3, 3), lwd=2,  col=c('darkgreen', 'black', 'darkorange', 'blue'), bty='n')
 mtext("B", 3, 0, adj=-0.1, font=2)
 dev.off()
