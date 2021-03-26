@@ -114,7 +114,7 @@ test_that("removing symptomatics works", {
 
 test_that("removing test positive works", {
   expect_equivalent(round(travel_trans_reduction(3, 
-    p_test_pos = p_test_pos_test), 3), 0.471)
+    p_test_pos = p_test_pos_test), 3), 0.470)
 })
 
 test_that("removing test positive & symptomatics works", {
